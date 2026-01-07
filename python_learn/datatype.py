@@ -18,4 +18,19 @@ print(string_type)
 
 name = "Alice"
 name_type = type(name)
-print(name_type) 
+print(name_type)
+
+# 数据类型转换
+# int()、float()、str()
+str_num = int("100")
+print(type(str_num), str_num)
+
+float_str = str(13.14)
+print(type(float_str), float_str)
+
+# 整数与浮点数之间转换
+int_float = float(100)
+print(type(int_float), int_float)
+# 浮点数转整数会丢失精度
+float_int = int(13.14)
+print(type(float_int), float_int)

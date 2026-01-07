@@ -26,4 +26,4 @@ cola = 5
 print("当前钱包余额：",money1,"元")
 print("购买冰淇淋，花费：",icecream,"元")
 print("购买可乐，花费：",cola * 2,"元")
-print("最终，钱包剩余：",money1 - icecream - cola * 2,"元")
+print("最终，钱包剩余：",money1 - icecream - cola * 2,"元") 

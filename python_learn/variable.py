@@ -3,14 +3,15 @@
 变量名 = 变量值
 变量的特征：存储的值可以发生改变
 """
+
 a = 10
 print(a)
 
 # 假设，每隔一小时打印一次钱包余额
 money = 100
-print("现在是下午1点，钱包余额为：",money,"元。")
-print("现在是下午2点，钱包余额为：",money,"元。")
-print("现在是下午3点，钱包余额为：",money,"元。")
+print("现在是下午1点，钱包余额为：", money, "元。")
+print("现在是下午2点，钱包余额为：", money, "元。")
+print("现在是下午3点，钱包余额为：", money, "元。")
 
 """
 请在程序中，定义如下变量：
@@ -23,7 +24,7 @@ print("现在是下午3点，钱包余额为：",money,"元。")
 money1 = 50
 icecream = 10
 cola = 5
-print("当前钱包余额：",money1,"元")
-print("购买冰淇淋，花费：",icecream,"元")
-print("购买可乐，花费：",cola * 2,"元")
-print("最终，钱包剩余：",money1 - icecream - cola * 2,"元") 
+print("当前钱包余额：", money1, "元")
+print("购买冰淇淋，花费：", icecream, "元")
+print("购买可乐，花费：", cola * 2, "元")
+print("最终，钱包剩余：", money1 - icecream - cola * 2, "元")
